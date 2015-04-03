@@ -1,0 +1,36 @@
+﻿<Page
+    x:Class="AppCoupePizza.Decoupage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:AppCoupePizza"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid Background="Black">
+        <TextBlock FontWeight="Bold" Foreground="Red" x:Name="Text_Nombre" HorizontalAlignment="Center" FontSize="20"  Height="30" Width="200"  Margin="107,0,93,275" VerticalAlignment="Bottom" >Nombre de mangeur :</TextBlock>
+        <Button  BorderBrush="White" Background="DarkRed" RenderTransformOrigin="0.78,-3.37" Height="70" Margin="61,403,210,0" HorizontalAlignment="Stretch" VerticalAlignment="Top" Tapped="BT_moins">
+            <TextBlock Foreground="White">-</TextBlock>
+        </Button>
+        <Button Background="DarkRed" BorderBrush="White" RenderTransformOrigin="0.78,-3.37" Height="70" Margin="222,403,49,0" HorizontalAlignment="Stretch" VerticalAlignment="Top" Tapped="BT_plus" >
+            <TextBlock Foreground="White">+</TextBlock>
+
+        </Button>
+
+        <TextBlock FontWeight="Bold" Foreground="Red" x:Name="Text_Forme" FontSize="20"  Height="30" Width="70" RenderTransformOrigin="0.475,0.19" Margin="169,458,161,152" >Forme :</TextBlock>
+        <Button  BorderBrush="White" Background="DarkRed" RenderTransformOrigin="0.78,-3.37" Height="70" Margin="81,500,210,0" HorizontalAlignment="Stretch" VerticalAlignment="Top" Tapped="BT_Rond">
+            <TextBlock Foreground="White">Rond</TextBlock>
+        </Button>
+        <Button  BorderBrush="White" Background="DarkRed" RenderTransformOrigin="0.78,-3.37" Height="70" Margin="222,500,69,0" HorizontalAlignment="Stretch" VerticalAlignment="Top" Tapped="BT_Rectangle">
+            <TextBlock Foreground="White">Rectangle</TextBlock>
+        </Button>
+
+        <Image x:Name="ImgPizza" Margin="53,10,52,326" Source="Assets/rond/1.jpg" />
+        <!-- Le projet étant en jpeg au niveau des photos découppées, Il suffit de changer png par jpg. ( Les photos jpg sont dans le dossiers aussi-->
+
+        <Button  BorderBrush="White" Background="Black" RenderTransformOrigin="0.78,-3.37" Height="70" Margin="101,565,99,0" HorizontalAlignment="Stretch" VerticalAlignment="Top" Click="Boutton_Back">Retour</Button>
+
+
+    </Grid>
+</Page>

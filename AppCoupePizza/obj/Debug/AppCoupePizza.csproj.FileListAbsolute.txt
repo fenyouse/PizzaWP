@@ -1,0 +1,116 @@
+C:\Users\fenyouse\documents\visual studio 2013\Projects\AppCoupePizza\AppCoupePizza\obj\Debug\App.g.i.cs
+C:\Users\fenyouse\documents\visual studio 2013\Projects\AppCoupePizza\AppCoupePizza\obj\Debug\App.g.cs
+C:\Users\fenyouse\documents\visual studio 2013\Projects\AppCoupePizza\AppCoupePizza\obj\Debug\MainPage.g.i.cs
+C:\Users\fenyouse\documents\visual studio 2013\Projects\AppCoupePizza\AppCoupePizza\obj\Debug\MainPage.g.cs
+C:\Users\fenyouse\documents\visual studio 2013\Projects\AppCoupePizza\AppCoupePizza\obj\Debug\XamlTypeInfo.g.cs
+C:\Users\fenyouse\documents\visual studio 2013\Projects\AppCoupePizza\AppCoupePizza\obj\Debug\App.xaml
+C:\Users\fenyouse\documents\visual studio 2013\Projects\AppCoupePizza\AppCoupePizza\obj\Debug\MainPage.xaml
+C:\Users\fenyouse\documents\visual studio 2013\Projects\AppCoupePizza\AppCoupePizza\obj\Debug\App.xbf
+C:\Users\fenyouse\documents\visual studio 2013\Projects\AppCoupePizza\AppCoupePizza\obj\Debug\MainPage.xbf
+C:\Users\fenyouse\documents\visual studio 2013\Projects\AppCoupePizza\AppCoupePizza\obj\Debug\XamlSaveStateFile.xml
+C:\Users\fenyouse\documents\visual studio 2013\Projects\AppCoupePizza\AppCoupePizza\bin\Debug\App.xbf
+C:\Users\fenyouse\documents\visual studio 2013\Projects\AppCoupePizza\AppCoupePizza\bin\Debug\MainPage.xbf
+C:\Users\fenyouse\documents\visual studio 2013\Projects\AppCoupePizza\AppCoupePizza\bin\Debug\AppCoupePizza.xr.xml
+C:\Users\fenyouse\documents\visual studio 2013\Projects\AppCoupePizza\AppCoupePizza\bin\Debug\AppCoupePizza.exe
+C:\Users\fenyouse\documents\visual studio 2013\Projects\AppCoupePizza\AppCoupePizza\bin\Debug\AppCoupePizza.pdb
+C:\Users\fenyouse\documents\visual studio 2013\Projects\AppCoupePizza\AppCoupePizza\bin\Debug\resources.pri
+C:\Users\fenyouse\documents\visual studio 2013\Projects\AppCoupePizza\AppCoupePizza\bin\Debug\AppxManifest.xml
+C:\Users\fenyouse\documents\visual studio 2013\Projects\AppCoupePizza\AppCoupePizza\bin\Debug\AppCoupePizza.build.appxrecipe
+C:\Users\fenyouse\documents\visual studio 2013\Projects\AppCoupePizza\AppCoupePizza\obj\Debug\AppCoupePizza.exe
+C:\Users\fenyouse\documents\visual studio 2013\Projects\AppCoupePizza\AppCoupePizza\obj\Debug\AppCoupePizza.pdb
+C:\Users\fenyouse\documents\visual studio 2013\Projects\AppCoupePizza\AppCoupePizza\obj\Debug\priconfig.xml
+C:\Users\fenyouse\documents\visual studio 2013\Projects\AppCoupePizza\AppCoupePizza\obj\Debug\priconfig.xml.intermediate
+C:\Users\fenyouse\documents\visual studio 2013\Projects\AppCoupePizza\AppCoupePizza\obj\Debug\layout.resfiles
+C:\Users\fenyouse\documents\visual studio 2013\Projects\AppCoupePizza\AppCoupePizza\obj\Debug\layout.resfiles.intermediate
+C:\Users\fenyouse\documents\visual studio 2013\Projects\AppCoupePizza\AppCoupePizza\obj\Debug\resources.resfiles
+C:\Users\fenyouse\documents\visual studio 2013\Projects\AppCoupePizza\AppCoupePizza\obj\Debug\resources.resfiles.intermediate
+C:\Users\fenyouse\documents\visual studio 2013\Projects\AppCoupePizza\AppCoupePizza\obj\Debug\pri.resfiles
+C:\Users\fenyouse\documents\visual studio 2013\Projects\AppCoupePizza\AppCoupePizza\obj\Debug\pri.resfiles.intermediate
+C:\Users\fenyouse\documents\visual studio 2013\Projects\AppCoupePizza\AppCoupePizza\obj\Debug\qualifiers.txt
+C:\Users\fenyouse\documents\visual studio 2013\Projects\AppCoupePizza\AppCoupePizza\obj\Debug\qualifiers.txt.intermediate
+C:\Users\fenyouse\documents\visual studio 2013\Projects\AppCoupePizza\AppCoupePizza\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\fenyouse\documents\visual studio 2013\Projects\AppCoupePizza\AppCoupePizza\obj\Debug\ProjectArchitectures.txt
+C:\Users\amaur_000\Pictures\AppCoupePizza\AppCoupePizza\bin\Debug\App.xbf
+C:\Users\amaur_000\Pictures\AppCoupePizza\AppCoupePizza\bin\Debug\MainPage.xbf
+C:\Users\amaur_000\Pictures\AppCoupePizza\AppCoupePizza\bin\Debug\AppCoupePizza.xr.xml
+C:\Users\amaur_000\Pictures\AppCoupePizza\AppCoupePizza\bin\Debug\AppCoupePizza.exe
+C:\Users\amaur_000\Pictures\AppCoupePizza\AppCoupePizza\bin\Debug\AppCoupePizza.pdb
+C:\Users\amaur_000\Pictures\AppCoupePizza\AppCoupePizza\bin\Debug\resources.pri
+C:\Users\amaur_000\Pictures\AppCoupePizza\AppCoupePizza\bin\Debug\AppxManifest.xml
+C:\Users\amaur_000\Pictures\AppCoupePizza\AppCoupePizza\bin\Debug\AppCoupePizza.build.appxrecipe
+C:\Users\amaur_000\Pictures\AppCoupePizza\AppCoupePizza\obj\Debug\App.g.i.cs
+C:\Users\amaur_000\Pictures\AppCoupePizza\AppCoupePizza\obj\Debug\App.g.cs
+C:\Users\amaur_000\Pictures\AppCoupePizza\AppCoupePizza\obj\Debug\MainPage.g.i.cs
+C:\Users\amaur_000\Pictures\AppCoupePizza\AppCoupePizza\obj\Debug\MainPage.g.cs
+C:\Users\amaur_000\Pictures\AppCoupePizza\AppCoupePizza\obj\Debug\XamlTypeInfo.g.cs
+C:\Users\amaur_000\Pictures\AppCoupePizza\AppCoupePizza\obj\Debug\App.xaml
+C:\Users\amaur_000\Pictures\AppCoupePizza\AppCoupePizza\obj\Debug\App.xbf
+C:\Users\amaur_000\Pictures\AppCoupePizza\AppCoupePizza\obj\Debug\XamlSaveStateFile.xml
+C:\Users\amaur_000\Pictures\AppCoupePizza\AppCoupePizza\obj\Debug\MainPage.xaml
+C:\Users\amaur_000\Pictures\AppCoupePizza\AppCoupePizza\obj\Debug\MainPage.xbf
+C:\Users\amaur_000\Pictures\AppCoupePizza\AppCoupePizza\obj\Debug\AppCoupePizza.exe
+C:\Users\amaur_000\Pictures\AppCoupePizza\AppCoupePizza\obj\Debug\AppCoupePizza.pdb
+C:\Users\amaur_000\Pictures\AppCoupePizza\AppCoupePizza\obj\Debug\priconfig.xml
+C:\Users\amaur_000\Pictures\AppCoupePizza\AppCoupePizza\obj\Debug\priconfig.xml.intermediate
+C:\Users\amaur_000\Pictures\AppCoupePizza\AppCoupePizza\obj\Debug\layout.resfiles
+C:\Users\amaur_000\Pictures\AppCoupePizza\AppCoupePizza\obj\Debug\layout.resfiles.intermediate
+C:\Users\amaur_000\Pictures\AppCoupePizza\AppCoupePizza\obj\Debug\resources.resfiles
+C:\Users\amaur_000\Pictures\AppCoupePizza\AppCoupePizza\obj\Debug\resources.resfiles.intermediate
+C:\Users\amaur_000\Pictures\AppCoupePizza\AppCoupePizza\obj\Debug\pri.resfiles
+C:\Users\amaur_000\Pictures\AppCoupePizza\AppCoupePizza\obj\Debug\pri.resfiles.intermediate
+C:\Users\amaur_000\Pictures\AppCoupePizza\AppCoupePizza\obj\Debug\qualifiers.txt
+C:\Users\amaur_000\Pictures\AppCoupePizza\AppCoupePizza\obj\Debug\qualifiers.txt.intermediate
+C:\Users\amaur_000\Pictures\AppCoupePizza\AppCoupePizza\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\amaur_000\Pictures\AppCoupePizza\AppCoupePizza\obj\Debug\ProjectArchitectures.txt
+C:\Users\amaur_000\Pictures\AppCoupePizza\AppCoupePizza\bin\Debug\Accueil.xbf
+C:\Users\amaur_000\Pictures\AppCoupePizza\AppCoupePizza\obj\Debug\Accueil.g.i.cs
+C:\Users\amaur_000\Pictures\AppCoupePizza\AppCoupePizza\obj\Debug\Accueil.g.cs
+C:\Users\amaur_000\Pictures\AppCoupePizza\AppCoupePizza\obj\Debug\Accueil.xaml
+C:\Users\amaur_000\Pictures\AppCoupePizza\AppCoupePizza\obj\Debug\Accueil.xbf
+C:\Users\fenyouse\Desktop\AppCoupePizza\AppCoupePizza\obj\Debug\App.g.i.cs
+C:\Users\fenyouse\Desktop\AppCoupePizza\AppCoupePizza\obj\Debug\App.g.cs
+C:\Users\fenyouse\Desktop\AppCoupePizza\AppCoupePizza\obj\Debug\Accueil.g.i.cs
+C:\Users\fenyouse\Desktop\AppCoupePizza\AppCoupePizza\obj\Debug\Accueil.g.cs
+C:\Users\fenyouse\Desktop\AppCoupePizza\AppCoupePizza\obj\Debug\Decoupage.g.i.cs
+C:\Users\fenyouse\Desktop\AppCoupePizza\AppCoupePizza\obj\Debug\Decoupage.g.cs
+C:\Users\fenyouse\Desktop\AppCoupePizza\AppCoupePizza\obj\Debug\XamlTypeInfo.g.cs
+C:\Users\fenyouse\Desktop\AppCoupePizza\AppCoupePizza\obj\Debug\App.xaml
+C:\Users\fenyouse\Desktop\AppCoupePizza\AppCoupePizza\obj\Debug\Accueil.xaml
+C:\Users\fenyouse\Desktop\AppCoupePizza\AppCoupePizza\obj\Debug\App.xbf
+C:\Users\fenyouse\Desktop\AppCoupePizza\AppCoupePizza\obj\Debug\Accueil.xbf
+C:\Users\fenyouse\Desktop\AppCoupePizza\AppCoupePizza\obj\Debug\XamlSaveStateFile.xml
+C:\Users\fenyouse\Desktop\AppCoupePizza\AppCoupePizza\obj\Debug\AppCoupePizza.exe
+C:\Users\fenyouse\Desktop\AppCoupePizza\AppCoupePizza\obj\Debug\AppCoupePizza.pdb
+C:\Users\fenyouse\Desktop\AppCoupePizza\AppCoupePizza\bin\Debug\App.xbf
+C:\Users\fenyouse\Desktop\AppCoupePizza\AppCoupePizza\bin\Debug\Accueil.xbf
+C:\Users\fenyouse\Desktop\AppCoupePizza\AppCoupePizza\bin\Debug\Decoupage.xbf
+C:\Users\fenyouse\Desktop\AppCoupePizza\AppCoupePizza\bin\Debug\AppCoupePizza.xr.xml
+C:\Users\fenyouse\Desktop\AppCoupePizza\AppCoupePizza\bin\Debug\AppCoupePizza.exe
+C:\Users\fenyouse\Desktop\AppCoupePizza\AppCoupePizza\bin\Debug\AppCoupePizza.pdb
+C:\Users\fenyouse\Desktop\AppCoupePizza\AppCoupePizza\bin\Debug\resources.pri
+C:\Users\fenyouse\Desktop\AppCoupePizza\AppCoupePizza\bin\Debug\AppxManifest.xml
+C:\Users\fenyouse\Desktop\AppCoupePizza\AppCoupePizza\bin\Debug\AppCoupePizza.build.appxrecipe
+C:\Users\fenyouse\Desktop\AppCoupePizza\AppCoupePizza\obj\Debug\Decoupage.xaml
+C:\Users\fenyouse\Desktop\AppCoupePizza\AppCoupePizza\obj\Debug\Decoupage.xbf
+C:\Users\fenyouse\Desktop\AppCoupePizza\AppCoupePizza\obj\Debug\priconfig.xml
+C:\Users\fenyouse\Desktop\AppCoupePizza\AppCoupePizza\obj\Debug\priconfig.xml.intermediate
+C:\Users\fenyouse\Desktop\AppCoupePizza\AppCoupePizza\obj\Debug\layout.resfiles
+C:\Users\fenyouse\Desktop\AppCoupePizza\AppCoupePizza\obj\Debug\layout.resfiles.intermediate
+C:\Users\fenyouse\Desktop\AppCoupePizza\AppCoupePizza\obj\Debug\resources.resfiles
+C:\Users\fenyouse\Desktop\AppCoupePizza\AppCoupePizza\obj\Debug\resources.resfiles.intermediate
+C:\Users\fenyouse\Desktop\AppCoupePizza\AppCoupePizza\obj\Debug\pri.resfiles
+C:\Users\fenyouse\Desktop\AppCoupePizza\AppCoupePizza\obj\Debug\pri.resfiles.intermediate
+C:\Users\fenyouse\Desktop\AppCoupePizza\AppCoupePizza\obj\Debug\qualifiers.txt
+C:\Users\fenyouse\Desktop\AppCoupePizza\AppCoupePizza\obj\Debug\qualifiers.txt.intermediate
+C:\Users\fenyouse\Desktop\AppCoupePizza\AppCoupePizza\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\fenyouse\Desktop\AppCoupePizza\AppCoupePizza\obj\Debug\ProjectArchitectures.txt
+C:\Users\fenyouse\Desktop\AppCoupePizza\AppCoupePizza\obj\Debug\PizzaMap.g.i.cs
+C:\Users\fenyouse\Desktop\AppCoupePizza\AppCoupePizza\obj\Debug\PizzaMap.g.cs
+C:\Users\fenyouse\Desktop\AppCoupePizza\AppCoupePizza\obj\Debug\PizzaMap.xaml
+C:\Users\fenyouse\Desktop\AppCoupePizza\AppCoupePizza\obj\Debug\PizzaMap.xbf
+C:\Users\fenyouse\Desktop\AppCoupePizza\AppCoupePizza\bin\Debug\PizzaMap.xbf
+C:\Users\fenyouse\Desktop\AppCoupePizza\AppCoupePizza\bin\Debug\Recette.xbf
+C:\Users\fenyouse\Desktop\AppCoupePizza\AppCoupePizza\obj\Debug\Recette.g.i.cs
+C:\Users\fenyouse\Desktop\AppCoupePizza\AppCoupePizza\obj\Debug\Recette.g.cs
+C:\Users\fenyouse\Desktop\AppCoupePizza\AppCoupePizza\obj\Debug\Recette.xaml
+C:\Users\fenyouse\Desktop\AppCoupePizza\AppCoupePizza\obj\Debug\Recette.xbf

@@ -1,0 +1,43 @@
+﻿<Page
+    x:Class="AppCoupePizza.Accueil"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:AppCoupePizza"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid x:Name="LayoutRoot">
+
+        <Grid.ChildrenTransitions>
+            <TransitionCollection>
+                <EntranceThemeTransition/>
+            </TransitionCollection>
+        </Grid.ChildrenTransitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!-- Panneau Titre -->
+        <StackPanel Grid.Row="0" Margin="19,0,0,0">
+            <TextBlock Foreground="Red"  Text="PIZZA CUT" HorizontalAlignment="Center" Margin="0,-6.5,0,26.5" Style="{ThemeResource HeaderTextBlockStyle}" CharacterSpacing="{ThemeResource PivotHeaderItemCharacterSpacing}"/>
+            <TextBlock HorizontalAlignment="Center" FontSize="25" Foreground="Red" Text="Plus ça coûte, plus tu découpe !" Margin="16,0,15.833,0"  />
+        </StackPanel>
+
+        <!--TODO: le contenu doit être placé dans la grille suivante-->
+        <Grid Grid.Row="1" x:Name="ContentRoot" Margin="19,9.5,19,0">
+
+            <Button x:ConnectionId='1' Content="Découpage" BorderBrush="White" Background="DarkRed" HorizontalAlignment="Center" Margin="22,360,216,90"                          RenderTransformOrigin="0.828,0.401" Width="124" />
+            <Button x:ConnectionId='2' Content="Pizza Map" BorderBrush="White" Background="DarkRed" HorizontalAlignment="Center" Margin="210,360,28,90"                    RenderTransformOrigin="0.828,0.401" Width="124" />
+            <Button x:ConnectionId='3' Content="Recettes" BorderBrush="White" Background="DarkRed" HorizontalAlignment="Center" Margin="29,429,209,21"                        RenderTransformOrigin="0.828,0.401" Width="124" />
+            <Button x:ConnectionId='4' Content="Quitter" BorderBrush="White" Background="DarkRed" HorizontalAlignment="Center" Margin="211,428,30,22"                     RenderTransformOrigin="0.828,0.401" Width="121" />
+
+            <Image x:Name="ImgPizza" Margin="-1,-1,1,179" Source="Assets/pizza.png" />
+
+        </Grid>
+    </Grid>
+</Page>
+
