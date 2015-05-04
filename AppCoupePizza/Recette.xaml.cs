@@ -42,6 +42,23 @@ namespace AppCoupePizza
             Frame.Navigate(typeof(Accueil));
         }
 
+        /*      private void 4froClik(object sender, RoutedEventArgs e)
+              {
+                  Frame.Navigate(typeof(Australienne));
+              }
+
+              private void RoyaleClik(object sender, RoutedEventArgs e)
+              {
+                  Frame.Navigate(typeof(Australienne));
+              }
+
+              private void ItaClik(object sender, RoutedEventArgs e)
+              {
+                  Frame.Navigate(typeof(Australienne));
+              }
+      */
+
+
 
     }
 }

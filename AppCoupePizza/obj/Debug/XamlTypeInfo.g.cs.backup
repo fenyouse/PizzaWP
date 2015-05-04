@@ -124,7 +124,7 @@ namespace AppCoupePizza.AppCoupePizza_XamlTypeInfo
 
         private void InitTypeTables()
         {
-            _typeNameTable = new string[11];
+            _typeNameTable = new string[12];
             _typeNameTable[0] = "AppCoupePizza.Accueil";
             _typeNameTable[1] = "Windows.UI.Xaml.Controls.Page";
             _typeNameTable[2] = "Windows.UI.Xaml.Controls.UserControl";
@@ -133,11 +133,12 @@ namespace AppCoupePizza.AppCoupePizza_XamlTypeInfo
             _typeNameTable[5] = "AppCoupePizza.Common.ObservableDictionary";
             _typeNameTable[6] = "Object";
             _typeNameTable[7] = "String";
-            _typeNameTable[8] = "AppCoupePizza.PizzaMap";
-            _typeNameTable[9] = "AppCoupePizza.Decoupage";
-            _typeNameTable[10] = "AppCoupePizza.Recette";
+            _typeNameTable[8] = "AppCoupePizza.Australienne";
+            _typeNameTable[9] = "AppCoupePizza.PizzaMap";
+            _typeNameTable[10] = "AppCoupePizza.Decoupage";
+            _typeNameTable[11] = "AppCoupePizza.Recette";
 
-            _typeTable = new global::System.Type[11];
+            _typeTable = new global::System.Type[12];
             _typeTable[0] = typeof(global::AppCoupePizza.Accueil);
             _typeTable[1] = typeof(global::Windows.UI.Xaml.Controls.Page);
             _typeTable[2] = typeof(global::Windows.UI.Xaml.Controls.UserControl);
@@ -146,9 +147,10 @@ namespace AppCoupePizza.AppCoupePizza_XamlTypeInfo
             _typeTable[5] = typeof(global::AppCoupePizza.Common.ObservableDictionary);
             _typeTable[6] = typeof(global::System.Object);
             _typeTable[7] = typeof(global::System.String);
-            _typeTable[8] = typeof(global::AppCoupePizza.PizzaMap);
-            _typeTable[9] = typeof(global::AppCoupePizza.Decoupage);
-            _typeTable[10] = typeof(global::AppCoupePizza.Recette);
+            _typeTable[8] = typeof(global::AppCoupePizza.Australienne);
+            _typeTable[9] = typeof(global::AppCoupePizza.PizzaMap);
+            _typeTable[10] = typeof(global::AppCoupePizza.Decoupage);
+            _typeTable[11] = typeof(global::AppCoupePizza.Recette);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -185,9 +187,10 @@ namespace AppCoupePizza.AppCoupePizza_XamlTypeInfo
 
         private object Activate_0_Accueil() { return new global::AppCoupePizza.Accueil(); }
         private object Activate_5_ObservableDictionary() { return new global::AppCoupePizza.Common.ObservableDictionary(); }
-        private object Activate_8_PizzaMap() { return new global::AppCoupePizza.PizzaMap(); }
-        private object Activate_9_Decoupage() { return new global::AppCoupePizza.Decoupage(); }
-        private object Activate_10_Recette() { return new global::AppCoupePizza.Recette(); }
+        private object Activate_8_Australienne() { return new global::AppCoupePizza.Australienne(); }
+        private object Activate_9_PizzaMap() { return new global::AppCoupePizza.PizzaMap(); }
+        private object Activate_10_Decoupage() { return new global::AppCoupePizza.Decoupage(); }
+        private object Activate_11_Recette() { return new global::AppCoupePizza.Recette(); }
         private void MapAdd_5_ObservableDictionary(object instance, object key, object item)
         {
             var collection = (global::System.Collections.Generic.IDictionary<global::System.String, global::System.Object>)instance;
@@ -250,23 +253,32 @@ namespace AppCoupePizza.AppCoupePizza_XamlTypeInfo
                 xamlType = new global::AppCoupePizza.AppCoupePizza_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 8:   //  AppCoupePizza.PizzaMap
+            case 8:   //  AppCoupePizza.Australienne
                 userType = new global::AppCoupePizza.AppCoupePizza_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_8_PizzaMap;
+                userType.Activator = Activate_8_Australienne;
+                userType.AddMemberName("NavigationHelper");
+                userType.AddMemberName("DefaultViewModel");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 9:   //  AppCoupePizza.Decoupage
+            case 9:   //  AppCoupePizza.PizzaMap
                 userType = new global::AppCoupePizza.AppCoupePizza_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_9_Decoupage;
+                userType.Activator = Activate_9_PizzaMap;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 10:   //  AppCoupePizza.Recette
+            case 10:   //  AppCoupePizza.Decoupage
                 userType = new global::AppCoupePizza.AppCoupePizza_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_10_Recette;
+                userType.Activator = Activate_10_Decoupage;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 11:   //  AppCoupePizza.Recette
+                userType = new global::AppCoupePizza.AppCoupePizza_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_11_Recette;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
@@ -283,6 +295,16 @@ namespace AppCoupePizza.AppCoupePizza_XamlTypeInfo
         private object get_1_Accueil_DefaultViewModel(object instance)
         {
             var that = (global::AppCoupePizza.Accueil)instance;
+            return that.DefaultViewModel;
+        }
+        private object get_2_Australienne_NavigationHelper(object instance)
+        {
+            var that = (global::AppCoupePizza.Australienne)instance;
+            return that.NavigationHelper;
+        }
+        private object get_3_Australienne_DefaultViewModel(object instance)
+        {
+            var that = (global::AppCoupePizza.Australienne)instance;
             return that.DefaultViewModel;
         }
 
@@ -303,6 +325,18 @@ namespace AppCoupePizza.AppCoupePizza_XamlTypeInfo
                 userType = (global::AppCoupePizza.AppCoupePizza_XamlTypeInfo.XamlUserType)GetXamlTypeByName("AppCoupePizza.Accueil");
                 xamlMember = new global::AppCoupePizza.AppCoupePizza_XamlTypeInfo.XamlMember(this, "DefaultViewModel", "AppCoupePizza.Common.ObservableDictionary");
                 xamlMember.Getter = get_1_Accueil_DefaultViewModel;
+                xamlMember.SetIsReadOnly();
+                break;
+            case "AppCoupePizza.Australienne.NavigationHelper":
+                userType = (global::AppCoupePizza.AppCoupePizza_XamlTypeInfo.XamlUserType)GetXamlTypeByName("AppCoupePizza.Australienne");
+                xamlMember = new global::AppCoupePizza.AppCoupePizza_XamlTypeInfo.XamlMember(this, "NavigationHelper", "AppCoupePizza.Common.NavigationHelper");
+                xamlMember.Getter = get_2_Australienne_NavigationHelper;
+                xamlMember.SetIsReadOnly();
+                break;
+            case "AppCoupePizza.Australienne.DefaultViewModel":
+                userType = (global::AppCoupePizza.AppCoupePizza_XamlTypeInfo.XamlUserType)GetXamlTypeByName("AppCoupePizza.Australienne");
+                xamlMember = new global::AppCoupePizza.AppCoupePizza_XamlTypeInfo.XamlMember(this, "DefaultViewModel", "AppCoupePizza.Common.ObservableDictionary");
+                xamlMember.Getter = get_3_Australienne_DefaultViewModel;
                 xamlMember.SetIsReadOnly();
                 break;
             }

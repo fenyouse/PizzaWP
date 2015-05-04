@@ -15,6 +15,8 @@
       <RootProperty Name="Background" />
       <RootMethod Name="GetRow" />
       <RootMethod Name="SetRow" />
+      <RootMethod Name="GetRowSpan" />
+      <RootMethod Name="SetRowSpan" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Media.Animation.TransitionCollection" />
     <RootType FullName="Windows.UI.Xaml.Media.Animation.EntranceThemeTransition" />
@@ -58,6 +60,7 @@
       <RootProperty Name="RenderTransformOrigin" />
     </RootType>
     <RootType FullName="AppCoupePizza.Accueil" />
+    <RootType FullName="AppCoupePizza.Australienne" />
     <RootType FullName="AppCoupePizza.PizzaMap" />
     <RootType FullName="AppCoupePizza.Decoupage" />
     <RootType FullName="AppCoupePizza.Recette" />

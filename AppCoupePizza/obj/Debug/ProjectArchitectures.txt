@@ -1,1 +1,1 @@
-C:\Users\fenyouse\Desktop\AppCoupePizza\AppCoupePizza\AppCoupePizza.csproj;neutral
+C:\Users\Amaury\Desktop\AppliParfaiteAcontinuer\AppCoupePizza\AppCoupePizza\AppCoupePizza.csproj;neutral

@@ -30,12 +30,13 @@
         <!--TODO: le contenu doit être placé dans la grille suivante-->
         <Grid Grid.Row="1" x:Name="ContentRoot" Margin="19,9.5,19,0">
 
-            <Button x:ConnectionId='1' Content="Découpage" BorderBrush="White" Background="DarkRed" HorizontalAlignment="Center" Margin="22,360,216,90"                          RenderTransformOrigin="0.828,0.401" Width="124" />
-            <Button x:ConnectionId='2' Content="Pizza Map" BorderBrush="White" Background="DarkRed" HorizontalAlignment="Center" Margin="210,360,28,90"                    RenderTransformOrigin="0.828,0.401" Width="124" />
-            <Button x:ConnectionId='3' Content="Recettes" BorderBrush="White" Background="DarkRed" HorizontalAlignment="Center" Margin="29,429,209,21"                        RenderTransformOrigin="0.828,0.401" Width="124" />
-            <Button x:ConnectionId='4' Content="Quitter" BorderBrush="White" Background="DarkRed" HorizontalAlignment="Center" Margin="211,428,30,22"                     RenderTransformOrigin="0.828,0.401" Width="121" />
+            <Button x:ConnectionId='1' Content="Découpage" BorderBrush="White" Background="DarkRed" HorizontalAlignment="Center" Margin="28,357,210,93"                          RenderTransformOrigin="0.828,0.401" Width="124" />
+            <Button x:ConnectionId='2' Content="Pizza Map" BorderBrush="White" Background="DarkRed" HorizontalAlignment="Center" Margin="205,359,33,91"                    RenderTransformOrigin="0.828,0.401" Width="124" />
+            <Button x:ConnectionId='3' Content="Recettes" BorderBrush="White" Background="DarkRed" HorizontalAlignment="Center" Margin="24,428,214,22"                        RenderTransformOrigin="0.828,0.401" Width="124" />
+            <Button x:ConnectionId='4' Content="Quitter" BorderBrush="White" Background="DarkRed" HorizontalAlignment="Center" Margin="208,428,33,22"                     RenderTransformOrigin="0.828,0.401" Width="121" />
 
             <Image x:Name="ImgPizza" Margin="-1,-1,1,179" Source="Assets/pizza.png" />
+            <Button x:ConnectionId='5' x:Name="BtnVoix" Content="Enregistrer" BorderBrush="White" Background="DarkRed" HorizontalAlignment="Center" Margin="119,298,119,152"                  RenderTransformOrigin="0.828,0.401" Width="124" />
 
         </Grid>
     </Grid>

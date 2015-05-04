@@ -15,6 +15,10 @@ using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Media.Animation;
 using Windows.UI.Xaml.Navigation;
+// Pour Cortana ? 
+using Windows.Media.SpeechRecognition;
+using Windows.Storage;
+using Windows.Media.SpeechSynthesis;
 
 // Pour plus d'informations sur le modèle Application vide, consultez la page http://go.microsoft.com/fwlink/?LinkId=391641
 
@@ -35,6 +39,7 @@ namespace AppCoupePizza
         {
             this.InitializeComponent();
             this.Suspending += this.OnSuspending;
+            enregistrerVoix();
         }
 
         /// <summary>
@@ -113,6 +118,18 @@ namespace AppCoupePizza
             rootFrame.Navigated -= this.RootFrame_FirstNavigated;
         }
 
+        // CORTANA
+        private async void enregistrerVoix()
+        {
+            Uri uriVoiceCommands = new Uri("ms-appx:///VCD.xml", UriKind.Absolute);
+
+            StorageFile file = await StorageFile.GetFileFromApplicationUriAsync(uriVoiceCommands);
+
+            await VoiceCommandManager.InstallCommandSetsFromStorageFileAsync(file);
+        }
+
+
+
         /// <summary>
         /// Appelé lorsque l'exécution de l'application est suspendue.  L'état de l'application est enregistré
         /// sans savoir si l'application pourra se fermer ou reprendre sans endommager
@@ -127,5 +144,49 @@ namespace AppCoupePizza
             // TODO: enregistrez l'état de l'application et arrêtez toute activité en arrière-plan
             deferral.Complete();
         }
+
+
+        // CORTANA 
+
+        protected override void OnActivated(IActivatedEventArgs args)
+        {
+            base.OnActivated(args);
+
+            Frame rootFrame = Window.Current.Content as Frame;
+
+            //Si l'application a démarré à l'aide d'une commande vocale
+            if (args.Kind == ActivationKind.VoiceCommand)
+            {
+                VoiceCommandActivatedEventArgs vcArgs = (VoiceCommandActivatedEventArgs)args;
+
+                if (vcArgs != null)
+                {
+                    //On récupère la commande qui a lancé l'application
+                    string voiceCommandName = vcArgs.Result.RulePath.First();
+
+                    //On fait un traitement en fonction de la phrase passée en paramètre
+                    switch (voiceCommandName)
+                    {
+                        // L'utilisateur veut écrire du texte par défaut
+                        case "Accueil Pizza":
+                            rootFrame.Navigate(typeof(AppCoupePizza.Accueil));
+                            break;
+
+                        case "Recette Pizza":
+                            rootFrame.Navigate(typeof(AppCoupePizza.Recette));
+                            break;
+
+               //         case "TestPhraseTopic":
+                 //           rootFrame.Navigate(typeof(AppCoupePizza.PhraseTopicTest), vcArgs.Result);
+                   //         break;
+                    }
+                }
+            }
+
+            // Ensure the current window is active
+            //Window.Current.Activate();
+        }
+
+
     }   
 }

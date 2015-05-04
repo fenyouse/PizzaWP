@@ -15,8 +15,6 @@ using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
-using Windows.Media.SpeechRecognition;
-using Windows.Media.SpeechSynthesis;
 
 // Pour en savoir plus sur le modèle d'élément Page de base, consultez la page http://go.microsoft.com/fwlink/?LinkID=390556
 
@@ -25,13 +23,12 @@ namespace AppCoupePizza
     /// <summary>
     /// Une page vide peut être utilisée seule ou constituer une page de destination au sein d'un frame.
     /// </summary>
-    public sealed partial class Accueil: Page
+    public sealed partial class Australienne : Page
     {
-        private SpeechRecognizer speechRecog = new SpeechRecognizer();
         private NavigationHelper navigationHelper;
         private ObservableDictionary defaultViewModel = new ObservableDictionary();
 
-        public Accueil()
+        public Australienne()
         {
             this.InitializeComponent();
 
@@ -84,20 +81,6 @@ namespace AppCoupePizza
         {
         }
 
-        private void Button_Decoupage(object sender, RoutedEventArgs e)
-        {
-            Frame.Navigate(typeof(Decoupage));
-        }
-
-        private void Button_Map(object sender, RoutedEventArgs e)
-        {
-            Frame.Navigate(typeof(PizzaMap));
-        }
-
-        private void Button_Recette(object sender, RoutedEventArgs e)
-        {
-            Frame.Navigate(typeof(Recette));
-        }
         #region Inscription de NavigationHelper
 
         /// <summary>
@@ -125,50 +108,9 @@ namespace AppCoupePizza
 
         #endregion
 
-        private void Button_Back(object sender, RoutedEventArgs e)
+        private void austra_clik(object sender, TappedRoutedEventArgs e)
         {
-            Application.Current.Exit();
-        }
-
-        private async void BTN_Voix(object sender, RoutedEventArgs e)
-        {
-            
-             
-            // Contraintes
-            // Possibilité de définir des sujets, un type de recherche, etc...
-            //SpeechRecognitionTopicConstraint topicConstraint =
-            //    new SpeechRecognitionTopicConstraint(SpeechRecognitionScenario.WebSearch, "Google");
-
-            // OBLIGATOIRE ! On compile les contraintes afin de procéder.
-            await speechRecog.CompileConstraintsAsync();
-
-            // Début de la reconnaissance vocale + affichage résultat
-            SpeechRecognitionResult speechRecognitionResult = await this.speechRecog.RecognizeWithUIAsync();
-            // txtInfo.Text = speechRecognitionResult.Text;
-
-            if (speechRecognitionResult.Text.ToUpper().Contains("RECETTE PIZZA"))
-            {
-                if (speechRecognitionResult.Text.ToUpper().Contains("AUSTRALIENNE"))
-                {
-                    Frame.Navigate(typeof(Australienne));
-                }
-
-     /*           if (speechRecognitionResult.Text.ToUpper().Contains("ITALIENNE"))
-                {
-                    Frame.Navigate(typeof(Italienne));
-                }
-
-                if (speechRecognitionResult.Text.ToUpper().Contains("ROYALE"))
-                {
-                    Frame.Navigate(typeof(Royale));
-                }
-      */
-            }
-
-
-        
-             
-             
+            Frame.Navigate(typeof(Recette));
         }
     }
 }

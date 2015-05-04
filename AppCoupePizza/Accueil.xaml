@@ -30,12 +30,13 @@
         <!--TODO: le contenu doit être placé dans la grille suivante-->
         <Grid Grid.Row="1" x:Name="ContentRoot" Margin="19,9.5,19,0">
 
-            <Button Content="Découpage" BorderBrush="White" Background="DarkRed" HorizontalAlignment="Center" Margin="22,360,216,90" Click="Button_Decoupage" RenderTransformOrigin="0.828,0.401" Width="124" />
-            <Button Content="Pizza Map" BorderBrush="White" Background="DarkRed" HorizontalAlignment="Center" Margin="210,360,28,90" Click="Button_Map" RenderTransformOrigin="0.828,0.401" Width="124" />
-            <Button Content="Recettes" BorderBrush="White" Background="DarkRed" HorizontalAlignment="Center" Margin="29,429,209,21" Click="Button_Recette" RenderTransformOrigin="0.828,0.401" Width="124" />
-            <Button Content="Quitter" BorderBrush="White" Background="DarkRed" HorizontalAlignment="Center" Margin="211,428,30,22" Click="Button_Back" RenderTransformOrigin="0.828,0.401" Width="121" />
+            <Button Content="Découpage" BorderBrush="White" Background="DarkRed" HorizontalAlignment="Center" Margin="28,357,210,93" Click="Button_Decoupage" RenderTransformOrigin="0.828,0.401" Width="124" />
+            <Button Content="Pizza Map" BorderBrush="White" Background="DarkRed" HorizontalAlignment="Center" Margin="205,359,33,91" Click="Button_Map" RenderTransformOrigin="0.828,0.401" Width="124" />
+            <Button Content="Recettes" BorderBrush="White" Background="DarkRed" HorizontalAlignment="Center" Margin="24,428,214,22" Click="Button_Recette" RenderTransformOrigin="0.828,0.401" Width="124" />
+            <Button Content="Quitter" BorderBrush="White" Background="DarkRed" HorizontalAlignment="Center" Margin="208,428,33,22" Click="Button_Back" RenderTransformOrigin="0.828,0.401" Width="121" />
 
             <Image x:Name="ImgPizza" Margin="-1,-1,1,179" Source="Assets/pizza.png" />
+            <Button x:Name="BtnVoix" Content="Enregistrer" BorderBrush="White" Background="DarkRed" HorizontalAlignment="Center" Margin="119,298,119,152" Click="BTN_Voix" RenderTransformOrigin="0.828,0.401" Width="124" />
 
         </Grid>
     </Grid>

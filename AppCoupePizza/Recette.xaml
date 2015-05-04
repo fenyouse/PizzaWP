@@ -9,6 +9,19 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
+        <Grid Margin="47,61,43,112">
+            <TextBlock FontWeight="Bold" Foreground="Red" x:Name="Text_4Fromages" FontSize="20" RenderTransformOrigin="0.475,0.19" Margin="24,46,169,394" >4 Fromages</TextBlock>
+            <TextBlock FontWeight="Bold" Foreground="Red" x:Name="Text_Australienne" FontSize="20" RenderTransformOrigin="0.475,0.19" Margin="20,200,156,240" >Australienne</TextBlock>
+            <TextBlock FontWeight="Bold" Foreground="Red" x:Name="Text_Margarita" FontSize="20" RenderTransformOrigin="0.475,0.19" Margin="31,288,162,152" >Italienne</TextBlock>
+            <TextBlock FontWeight="Bold" Foreground="Red" x:Name="Text_" FontSize="20" RenderTransformOrigin="0.475,0.19" Margin="29,378,164,62" >Royale</TextBlock>
+            <TextBlock FontWeight="Bold" Foreground="Red" x:Name="Text_g" FontSize="20" RenderTransformOrigin="0.475,0.19" Margin="26,123,167,317" ></TextBlock>
+            
+            <Button Background="Red" Margin="178,34,0,376" Width="57">°</Button>
+            <Button Background="Red" Margin="179,185,0,225" Width="57" RenderTransformOrigin="0.52,1.272" Click="AustraClik" >GO</Button>
+            <Button Background="Red" Margin="179,108,0,302" Width="57">GO</Button>
+            <Button Background="Red" Margin="180,363,0,47" Width="57">GO</Button>
+            <Button Background="Red" Margin="180,272,0,138" Width="57">GO</Button>
+        </Grid>
         <Button  BorderBrush="White" Background="Black" RenderTransformOrigin="0.78,-3.37" Height="70" Margin="101,565,99,0" HorizontalAlignment="Stretch" VerticalAlignment="Top" Click="Boutton_Back">Retour</Button>
     </Grid>
 </Page>
